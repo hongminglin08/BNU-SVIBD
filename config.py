@@ -24,18 +24,18 @@ class Config(object):
         self.dataset_name=dataset_name 
         
         if dataset_name=='volleyball':
-            self.data_path='/nfs/home/1003_hejun/hml/dataset/volleyball/videos'  #data path for the volleyball dataset
+            self.data_path='/dataset/volleyball/videos'  #data path for the volleyball dataset
             self.train_seqs = [ 1,3,6,7,10,13,15,16,18,22,23,31,32,36,38,39,40,41,42,48,50,52,53,54,
                                 0,2,8,12,17,19,24,26,27,28,30,33,46,49,51]  #video id list of train set 
             self.test_seqs = [4,5,9,11,14,20,21,25,29,34,35,37,43,44,45,47]  #video id list of test set
         
         elif dataset_name=='interactiveBehaviordataset':
-            self.data_path='/nfs/home/1003_hejun/hml/dataset/interactiveBehaviordataset'  #data path for the collective dataset
+            self.data_path='/dataset/interactiveBehaviordataset'  #data path for the collective dataset
             self.test_seqs=[1,2,3,5,6,7,8,9,10,15,16,18,25,28,29,33,41,43,52,56,61,70,71,81,82]
             self.train_seqs=[s for s in range(1,101) if s not in self.test_seqs]
             
         else:
-            self.data_path='/nfs/home/1003_hejun/hml/dataset/collective'  #data path for the collective dataset
+            self.data_path='/dataset/collective'  #data path for the collective dataset
             self.test_seqs=[5,6,7,8,9,10,11,15,16,25,28,29]
             self.train_seqs=[s for s in range(1,45) if s not in self.test_seqs]
         
