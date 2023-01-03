@@ -54,7 +54,7 @@ def interaction_read_annotations(path,sid):
             #values=l[:-1].split('	')
             values=l[:-1].split(' ')
             #if (int(values[1])>200 and int(values[2])>292 and int(values[3])<504 and int(values[4])<444) or (int(values[1])>1194 and int(values[2])>228 and int(values[3])<1300 and int(values[4])<326):
-            if (int(values[1])>860 and int(values[2])>156 and int(values[3])<1318 and int(values[4])<340):
+            if 1==0:#(int(values[1])>860 and int(values[2])>156 and int(values[3])<1318 and int(values[4])<340):
                 continue
             else:                
                 if int(values[0])!=frame_id:
