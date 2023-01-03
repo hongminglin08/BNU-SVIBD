@@ -7,7 +7,11 @@ This project is the official implementation of our paper Classroom Interaction B
 - PyTorch `1.7.1`
 - numpy, pickle, scikit-image
 - [RoIAlign for Pytorch](https://github.com/longcw/RoIAlign.pytorch)
-- Datasets:
+
+
+## Prepare Datasets
+1. Download [BNU-SVIBD].
+2. Unzip the dataset file into `data/`.
 
 ## Get Started
 
