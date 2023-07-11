@@ -12,6 +12,7 @@ This project is the official implementation of our paper Classroom Interaction B
 ## Prepare Datasets
 1. Download [BNU-SVIBD].
 2. Unzip the dataset file into `data/`.
+3. Unzip 'result.zip'
 
 ## Get Started
 
